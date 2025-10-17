@@ -1,7 +1,7 @@
 public class AccountTest {
     public static void main(String[] args) {
         Account account1 = new Account("A123", 1000.0);
-        Account account2 = new Account("B456", -2000.0);
+        Account account2 = new Account("B456", 2000.0);
 
         //System.out.println("帳戶號碼: " + account1.getAccountNumber());
         //System.out.println("初始餘額: " + account1.getBalance());
